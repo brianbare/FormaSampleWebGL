@@ -90,8 +90,8 @@
     <type fullname="Unity.Industrial.Forma.Core.Variants.Variant" preserve="all" />
     <type fullname="Unity.Industrial.Forma.Staging.Animations.PlayTimelineCommand" preserve="all" />
     <type fullname="Unity.Industrial.Forma.Staging.Camera.CameraItem" preserve="all" />
-    <type fullname="Unity.Industrial.Forma.Staging.Hotspots.Hotspot" preserve="all" />
     <type fullname="Unity.Industrial.Forma.Core.Ruling.Rules" preserve="all" />
+    <type fullname="Unity.Industrial.Forma.Staging.Hotspots.Hotspot" preserve="all" />
     <type fullname="Unity.Industrial.Forma.Staging.Hotspots.CameraFacingBillboard" preserve="all" />
     <type fullname="Unity.Industrial.Forma.Core.Variants.StaticPlayableQueryNode" preserve="all" />
     <type fullname="Unity.Industrial.Forma.Staging.Hotspots.HotspotAnnotation" preserve="all" />
@@ -137,5 +137,13 @@
   </assembly>
   <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
   </assembly>
 </linker>
